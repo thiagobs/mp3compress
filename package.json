@@ -1,0 +1,25 @@
+{
+  "name": "mp3compress",
+  "version": "0.1.0",
+  "description": "A tiny mp3 file compressor using ffmpeg binary",
+  "main": "index.js",
+  "bin": {
+      "mp3compress": "index.js"
+  },
+  "preferGlobal": "true",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "mp3",
+    "compress",
+    "ffmpeg",
+    "bitrate"
+  ],
+  "author": "Thiago B. da Silva <thiago@agenciadeinternet.com>",
+  "license": "ISC",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  }
+}
