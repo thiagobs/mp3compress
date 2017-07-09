@@ -1,6 +1,10 @@
 # mp3compress
 A tiny mp3 file compressor using ffmpeg binary
 
+## Requirements
+
+- FFMPEG
+
 ## Installation
 
 ```
